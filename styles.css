@@ -1,0 +1,65 @@
+/*Général*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header section*/
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 197px;
+}
+
+.location {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.location i {
+    margin-right: 10px;
+}
+
+.location h1 {
+    font-size: 1em;
+}
+
+.etape {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.etape-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.etape-numero {
+    font-size: 20px;
+    font-weight: 700;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.etape-icone {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.etape-texte {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
